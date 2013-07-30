@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/stian/Documents/Eclipse/dwInfoTV/src/television'
+let g:netrw_dirhist_2='/Users/stian/.vim/snippets'
+let g:netrw_dirhist_3='/Users/stian/.vim/colors'
+let g:netrw_dirhist_4='/Users/stian/tull'
+let g:netrw_dirhist_5='/Users/stian/Documents/Hovedprosjekt/svn/h12d16/trunk/src/prototypeDemoOtherCompany'
+let g:netrw_dirhist_6='/Users/stian/Documents/Shnergle/Consumer App/Consumer App.xcodeproj'
+let g:netrw_dirhist_7='ftp://woolland@woolland.no/'
+let g:netrw_dirhist_8='/Users/stian/Documents/Shnergle/Consumer App/ShnergleApp.xcodeproj'
