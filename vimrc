@@ -17,6 +17,10 @@ noremap <silent> ,h :wincmd h<cr>
 noremap <silent> ,l :wincmd l<cr>
 noremap <silent> ,j :wincmd j<cr>
 noremap <silent> ,k :wincmd k<cr>
+"Tabnavigasjon
+nmap <leader><Right> :tabnext<cr>
+nmap <leader><Left> :tabprev<cr>
+
 "Oppdater filer som er endret på disken
 set autoread
 set grepprg=grep\ -nH\ $*    
@@ -40,7 +44,7 @@ set grepprg=grep\ -nH\ $*
 :set showmatch
 " Fyller ut matchjende } en linje under, og hopper mellom - OBS: ødelegger i
 " LaTeX 
-" :inoremap { {<Enter><Enter>}<Esc>ki
+:inoremap { {<Enter><Enter>}<Esc>ki
 " //vim-LaTeX ->
 ":set grepprg=grep\ -nH\ $*
 ":filetype indent on
