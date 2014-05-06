@@ -11,6 +11,8 @@ endif
 let mapleader = ","
 " shortcut for NERDTREE
 nmap <leader>nt :NERDTreeToggle<cr>
+" shortcut for FuzzyFinder
+nmap <leader>o :FufFile<cr>
 
 " shortcut for å navigere vinduer
 noremap <silent> ,h :wincmd h<cr>
@@ -42,23 +44,7 @@ set grepprg=grep\ -nH\ $*
 ":set virtualedit=all
 " viser matchende parenteser, måker, <>
 :set showmatch
-" Fyller ut matchjende } en linje under, og hopper mellom - OBS: ødelegger i
+" Fyller ut matchende } en linje under, og hopper mellom - OBS: ødelegger i
 " LaTeX 
 :inoremap { {<Enter><Enter>}<Esc>ki
-" //vim-LaTeX ->
-":set grepprg=grep\ -nH\ $*
-":filetype indent on
-":let g:tex_flavor='latex'
-":let g:Tex_CompileRule_pdf = '/usr/texbin/pdflatex -interaction=nonstopmode --shell-escape $*'
-":let g:Tex_ViewRule_pdf = 'open /Applications/Preview.app'
-":let g:Tex_DefaultTargetFormat = 'pdf'
-" //vim-LaTeX <-
-"autocmd VimEnter unmap! mm
-" :unmap! mm
-"
-"
-"
-"
-"
-"
 
